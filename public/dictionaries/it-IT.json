@@ -56,7 +56,7 @@
   },
   "animes_page": {
     "title": "Anime",
-    "description": "Trova i tuoi anime preferiti",
+    "description": "Trova i tuoi anime preferiti.",
     "button_tv_series": "Serie TV",
     "button_movies": "Film"
   },
@@ -136,6 +136,7 @@
     "airing_today_description": "Non perdere il ritmo! Scopri quali serie hanno episodi freschi di giornata oggi.",
     "on_the_air": "In Onda",
     "on_the_air_description": "Sintonizzati qui per non perdere gli episodi attuali delle serie più hot del momento.",
+    "animes": "Anime",
     "people": "Persone",
     "lists": "Liste",
     "lists_description": "Le tue scelte, i tuoi interessi. Crea e condividi liste dei tuoi film e serie preferiti con la comunità."

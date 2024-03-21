@@ -130,6 +130,7 @@ export type Dictionary = {
     airing_today_description: string
     on_the_air: string
     on_the_air_description: string
+    animes: string
     people: string
     lists: string
     lists_description: string

@@ -56,7 +56,7 @@
   },
   "animes_page": {
     "title": "アニメ",
-    "description": "お気に入りのアニメを見つけよう",
+    "description": "お気に入りのアニメを見つけよう。",
     "button_tv_series": "TVシリーズ",
     "button_movies": "映画"
   },
@@ -136,6 +136,7 @@
     "airing_today_description": "リズムを逃さないでください！今日、新鮮なエピソードが放送されるシリーズを見てください。",
     "on_the_air": "放送中",
     "on_the_air_description": "今の最もホットなシリーズの現在のエピソードを逃さないように、ここにチューニングしてください。",
+    "animes": "アニメ",
     "people": "人々",
     "lists": "リスト",
     "lists_description": "あなたの選択、あなたの興味。コミュニティとあなたのお気に入りの映画やシリーズのリストを作成して共有してください。"

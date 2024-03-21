@@ -55,8 +55,8 @@
     "show_all": "Show all"
   },
   "animes_page": {
-    "title": "Animes",
-    "description": "Find your favorite animes",
+    "title": "Anime",
+    "description": "Find your favorite anime.",
     "button_tv_series": "TV Series",
     "button_movies": "Movies"
   },
@@ -140,6 +140,7 @@
     "airing_today_description": "Don't miss a beat! See which shows have fresh episodes coming out of the oven today.",
     "on_the_air": "On the Air",
     "on_the_air_description": "Tune in here to not miss out on current episodes of the hottest series right now.",
+    "animes": "Anime",
     "people": "People",
     "lists": "Lists",
     "lists_description": "Your picks, your interests. Create and share lists of your favorite movies and shows with the community."

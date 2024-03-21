@@ -55,8 +55,8 @@
     "show_all": "Alle anzeigen"
   },
   "animes_page": {
-    "title": "Animes",
-    "description": "Finde deine Lieblingsanimes",
+    "title": "Anime",
+    "description": "Finde deine Lieblingsanime.",
     "button_tv_series": "Serien",
     "button_movies": "Filme"
   },
@@ -138,6 +138,7 @@
     "airing_today_description": "Verpassen Sie nicht den Takt! Sehen Sie, welche Serien heute frische Episoden haben.",
     "on_the_air": "Auf Sendung",
     "on_the_air_description": "Schalten Sie hier ein, um keine aktuellen Episoden der heißesten Serien des Moments zu verpassen.",
+    "animes": "Anime",
     "people": "Personen",
     "lists": "Listen",
     "lists_description": "Ihre Auswahl, Ihre Interessen. Erstellen und teilen Sie Listen Ihrer Lieblingsfilme und -serien mit der Community."

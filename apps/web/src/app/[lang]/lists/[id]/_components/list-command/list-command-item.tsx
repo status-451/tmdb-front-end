@@ -1,9 +1,12 @@
-import { Button } from '@/components/ui/button'
+'use client'
+
 import {
+  Button,
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu'
+} from '@plotwist/ui'
+
 import { MoreVertical } from 'lucide-react'
 import { PropsWithChildren } from 'react'
 

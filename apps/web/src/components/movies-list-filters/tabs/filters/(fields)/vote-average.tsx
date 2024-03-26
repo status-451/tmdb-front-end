@@ -1,8 +1,11 @@
-import { MoviesListFiltersFormValues } from '@/components/movies-list-filters'
-import { FormControl, FormItem, FormLabel } from '@/components/ui/form'
-import { Slider } from '@/components/ui/slider'
-import { useLanguage } from '@/context/language'
+'use client'
+
 import { useFormContext } from 'react-hook-form'
+
+import { FormControl, FormItem, FormLabel, Slider } from '@plotwist/ui'
+
+import { MoviesListFiltersFormValues } from '@/components/movies-list-filters'
+import { useLanguage } from '@/context/language'
 
 export const VoteAverageField = () => {
   const {

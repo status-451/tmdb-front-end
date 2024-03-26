@@ -5,32 +5,28 @@ import { useFormContext } from 'react-hook-form'
 import { useQuery } from '@tanstack/react-query'
 import Image from 'next/image'
 import { Eye, X } from 'lucide-react'
+
 import { tmdb } from '@plotwist/tmdb'
-
-import { useLanguage } from '@/context/language'
-
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
-} from '@/components/ui/form'
-import {
   Command,
   CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
   CommandSeparator,
-} from '@/components/ui/command'
-import { Badge } from '@/components/ui/badge'
-import {
+  Badge,
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from '@/components/ui/popover'
-import { ScrollArea } from '@/components/ui/scroll-area'
-import { Button } from '@/components/ui/button'
+  ScrollArea,
+  Button,
+} from '@plotwist/ui'
+
+import { useLanguage } from '@/context/language'
 
 import { tmdbImage } from '@/utils/tmdb/image'
 import { TvSeriesListFiltersFormValues } from '@/components/tv-series-list-filters'

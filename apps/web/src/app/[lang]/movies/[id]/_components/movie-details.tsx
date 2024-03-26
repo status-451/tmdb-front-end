@@ -1,15 +1,18 @@
 import { format } from 'date-fns'
 import { tmdb } from '@plotwist/tmdb'
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import { Separator } from '@/components/ui/separator'
 import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+  Separator,
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from '@/components/ui/tooltip'
-import { Badge } from '@/components/ui/badge'
+  Badge,
+} from '@plotwist/ui'
 
 import { Reviews } from '@/components/reviews'
 import { Videos } from '@/components/videos'
@@ -123,7 +126,7 @@ export const MovieDetails = async ({
         )}
 
         <Tabs defaultValue="reviews" className="w-full">
-          <div className="md:m-none p-none -mx-4 max-w-[100vw] overflow-x-scroll px-4 scrollbar-hide">
+          <div className="md:m-none p-none no-scrollbar -mx-4 max-w-[100vw] overflow-x-scroll px-4">
             <TabsList>
               <TabsTrigger value="reviews">
                 {dictionary.tabs.reviews}

@@ -1,3 +1,5 @@
+'use client'
+
 import { useFormContext } from 'react-hook-form'
 import { ChevronDown, ChevronUp } from 'lucide-react'
 
@@ -7,15 +9,13 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from '@/components/ui/form'
-
-import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select'
+} from '@plotwist/ui'
+
 import { useLanguage } from '@/context/language'
 
 import { MoviesListFiltersFormValues } from '../..'

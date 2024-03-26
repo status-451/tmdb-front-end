@@ -1,11 +1,14 @@
+'use client'
+
+import { useQuery } from '@tanstack/react-query'
+import { useFormContext } from 'react-hook-form'
+
 import {
   FormControl,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
-} from '@/components/ui/form'
-import {
   Select,
   SelectContent,
   SelectGroup,
@@ -13,14 +16,11 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select'
-
-import { useQuery } from '@tanstack/react-query'
-import { useFormContext } from 'react-hook-form'
+} from '@plotwist/ui'
+import { tmdb } from '@plotwist/tmdb'
 
 import { useLanguage } from '@/context/language'
 import { TvSeriesListFiltersFormValues } from '@/components/tv-series-list-filters'
-import { tmdb } from '@plotwist/tmdb'
 
 export const LanguageField = () => {
   const { dictionary } = useLanguage()
